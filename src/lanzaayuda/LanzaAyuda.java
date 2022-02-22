@@ -49,9 +49,9 @@ public class LanzaAyuda implements ActionListener, ItemListener
         HelpSet hs = obtenFicAyuda();
         HelpBroker hb = hs.createHelpBroker();
         
-        hb.enableHelpOnButton(menuItem, "top", hs);        
+        hb.enableHelpOnButton(menuItem, "main", hs);        
         menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F1, 0));
-        hb.enableHelpKey(menuItem, "topics", hs);
+        hb.enableHelpKey(menuItem, "main", hs);
         menu.add(menuItem);
         
         menuItem = new JMenuItem("About");

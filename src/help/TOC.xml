@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN" 
-"http://java.sun.com/products/javahelp/toc_2_0.dtd"> 
-<toc version="2.0"> 
-	<tocitem text="Habitaciones" target="topics"/> 
-	<tocitem text="Cliente" target="cliente"/> 
-	<tocitem text="Reserva" target="reserva"/> 
-	<tocitem text="Botones" target="botones"/> 
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+"http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc version="2.0">
+    <tocitem text="main" target="main"/>
+    <tocitem text="DNI" target="DNI"/>
+    <tocitem text="Direccion" target="Direccion"/>
+    <tocitem text="Fecha" target="Fecha"/>
+    <tocitem text="Habitacion" target="Habitacion"/>
+    <tocitem text="Nombre" target="Nombre"/>
+    <tocitem text="Numero" target="Numero"/>
+    <tocitem text="Telefono" target="Telefono"/>
+    <tocitem text="Evento" target="Evento"/>
 </toc>
